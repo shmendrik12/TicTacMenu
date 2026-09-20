@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "tictactoe": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}

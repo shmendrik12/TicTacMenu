@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.TicTacMenu" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pine_soft</item>
+        <item name="colorOnPrimary">@color/pine_deep</item>
+        <item name="colorSecondary">@color/clay</item>
+        <item name="materialButtonStyle">@style/Widget.TicTacMenu.Button</item>
+    </style>
+</resources>

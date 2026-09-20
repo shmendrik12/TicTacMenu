@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.TicTacMenu" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pine</item>
+        <item name="colorOnPrimary">@color/mark_first</item>
+        <item name="colorSecondary">@color/clay</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/pine_deep</item>
+        <item name="android:navigationBarColor">@color/paper</item>
+        <item name="materialButtonStyle">@style/Widget.TicTacMenu.Button</item>
+    </style>
+
+    <style name="Theme.TicTacMenu" parent="Base.Theme.TicTacMenu" />
+
+    <!-- Softly squared corners instead of the stock Material3 pill shape. -->
+    <style name="Widget.TicTacMenu.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">10dp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:paddingStart">22dp</item>
+        <item name="android:paddingEnd">22dp</item>
+    </style>
+
+    <style name="Widget.TicTacMenu.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">10dp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="strokeColor">@color/pine</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <style name="TextAppearance.TicTacMenu.Heading" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/pine_deep</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.06</item>
+    </style>
+</resources>

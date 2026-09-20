@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/paper"
+    android:padding="28dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tVtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:letterSpacing="0.06"
+        android:textColor="@color/pine_deep"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="28dp" />
+
+    <EditText
+        android:id="@+id/eTemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input_field"
+        android:padding="14dp"
+        android:textColorHint="@color/muted_text"
+        android:hint="User name / e-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/eTpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/bg_input_field"
+        android:padding="14dp"
+        android:textColorHint="@color/muted_text"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/cBstayconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/muted_text"
+        android:text="Remember me" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:onClick="onLoginClick"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@style/Widget.TicTacMenu.Button.Outlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="onRegisterClick"
+        android:text="@string/create_account" />
+
+    <Button
+        android:id="@+id/btnGoogleSignIn"
+        style="@style/Widget.TicTacMenu.Button.Outlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="onGoogleLoginClick"
+        android:text="Login with Google" />
+
+</LinearLayout>

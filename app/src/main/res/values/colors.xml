@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pine_deep">#14342A</color>
+    <color name="pine">#2E6B55</color>
+    <color name="pine_soft">#4E9A7B</color>
+    <color name="pine_pale">#C7DED2</color>
+    <color name="clay">#C2603F</color>
+    <color name="paper">#F6F1E7</color>
+    <color name="muted_text">#7B6F60</color>
+    <color name="grid_line">#2E6B55</color>
+    <!-- Game cells are rendered with the primary pine Material button tint. -->
+    <color name="mark_first">#FFF7EA</color>
+    <color name="mark_second">#F2B544</color>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_local_game"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="@string/menu_local_game" />
+        <item
+            android:id="@+id/nav_rtdb_prep"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="@string/menu_rtdb_prep" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/menu_profile" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_disconnect"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="@string/menu_disconnect" />
+        </menu>
+    </item>
+</menu>

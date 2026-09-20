@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TicTacMenu</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_local_game">Local Game</string>
+    <string name="menu_rtdb_prep">RTDB Game (Prep)</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="login_title">Tic Tac Toe</string>
+    <string name="login_subtitle">Sign in to start playing</string>
+    <string name="email_hint">User name / e-mail</string>
+    <string name="password_hint">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create account</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="game_title">Tic Tac Toe</string>
+    <string name="new_game">New game</string>
+    <string name="home_title">Welcome to Tic Tac Toe</string>
+    <string name="home_body">Choose a game from the menu or start a local match.</string>
+    <string name="start_local_game">Start local game</string>
+    <string name="profile_title">Profile</string>
+    <string name="sign_out">Sign out</string>
+    <string name="guest">Guest player</string>
+</resources>

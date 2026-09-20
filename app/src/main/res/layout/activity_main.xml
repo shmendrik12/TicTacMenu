@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/paper"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/game_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pine_deep"
+        android:minHeight="?attr/actionBarSize"
+        android:title="@string/game_title"
+        android:titleTextColor="@color/mark_first"
+        app:navigationIconTint="@color/mark_first" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/clay" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/game_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/pine_deep"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/game_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/muted_text"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button00"
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_game_cell"
+                    android:onClick="onCellClick"
+                    android:tag="0,0"
+                    android:textColor="@color/mark_first"
+                    android:textSize="38sp"
+                    app:cornerRadius="18dp" />
+
+                <Button
+                    android:id="@+id/button01"
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_game_cell"
+                    android:onClick="onCellClick"
+                    android:tag="0,1"
+                    android:textColor="@color/mark_first"
+                    android:textSize="38sp"
+                    app:cornerRadius="18dp" />
+
+                <Button
+                    android:id="@+id/button02"
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_game_cell"
+                    android:onClick="onCellClick"
+                    android:tag="0,2"
+                    android:textColor="@color/mark_first"
+                    android:textSize="38sp"
+                    app:cornerRadius="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_game_cell"
+                    android:onClick="onCellClick"
+                    android:tag="1,0"
+                    android:textColor="@color/mark_first"
+                    android:textSize="38sp"
+                    app:cornerRadius="18dp" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_game_cell"
+                    android:onClick="onCellClick"
+                    android:tag="1,1"
+                    android:textColor="@color/mark_first"
+                    android:textSize="38sp"
+                    app:cornerRadius="18dp" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_game_cell"
+                    android:onClick="onCellClick"
+                    android:tag="1,2"
+                    android:textColor="@color/mark_first"
+                    android:textSize="38sp"
+                    app:cornerRadius="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_game_cell"
+                    android:onClick="onCellClick"
+                    android:tag="2,0"
+                    android:textColor="@color/mark_first"
+                    android:textSize="38sp"
+                    app:cornerRadius="18dp" />
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_game_cell"
+                    android:onClick="onCellClick"
+                    android:tag="2,1"
+                    android:textColor="@color/mark_first"
+                    android:textSize="38sp"
+                    app:cornerRadius="18dp" />
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/bg_game_cell"
+                    android:onClick="onCellClick"
+                    android:tag="2,2"
+                    android:textColor="@color/mark_first"
+                    android:textSize="38sp"
+                    app:cornerRadius="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_new_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/new_game" />
+    </LinearLayout>
+</LinearLayout>
